@@ -1,10 +1,10 @@
 apiVersion: v1 # api版本
 kind: Pod # 类型
 metadata:
-  name: node-pod # pod名称
+  name: kubia # pod名称
 spec:
   containers:
-    - name: node-server-container # 容器名称
-      image: qiaocc/node-server:latest # 镜像
+    - name: kubia # 容器名称
+      image: qiaocc/kubia:0.1 # 镜像
       ports:
         - containerPort: 8080 # app监听端口
