@@ -1,0 +1,11 @@
+apiVersion: v1 # api版本
+kind: Pod # 类型
+metadata:
+  name: kubia-stdin # pod名称
+spec:
+  containers:
+    - name: kubia # 容器名称
+      image: qiaocc/kubia:0.1 # 镜像
+      stdin: true
+      ports:
+        - containerPort: 8080 # app监听端口
