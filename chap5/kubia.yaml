@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
     - name: kubia # 容器名称
-      image: qiaocc/kubia:0.1 # 镜像
+      image: qiaocc/kubia:1.0 # 镜像
       ports:
         - containerPort: 8080 # app监听端口
