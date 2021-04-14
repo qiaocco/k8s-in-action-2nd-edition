@@ -1,5 +1,7 @@
 IMAGE ?= kubia:1.0-stdin
-FULL_IMAGE_TAG = "$(PREFIX)$(IMAGE)"
+# export PREFIX=qiaocc
+# export PREFIX=registry.cn-shanghai.aliyuncs.com/qiaocc
+FULL_IMAGE_TAG = "$(PREFIX)/$(IMAGE)"
 
 build:
 	@echo "Building image $(FULL_IMAGE_TAG)"
