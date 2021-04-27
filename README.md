@@ -4,6 +4,6 @@
 
 我按照最新版的命令，重新做了笔记。
 
-地址是：[k8s笔记](http://blog.qiaocci.com/categories/k8s/)
+地址是：[k8s笔记](http://blog.qiaocci.com/tags/k8s/)
 
 如有错误的地方，欢迎大家指出。
